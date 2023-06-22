@@ -7,6 +7,18 @@
 body{
     background-color: white;
 }
+.article{
+    
+    
+    
+    display: flex;
+    
+    justify-content: left;
+   
+    
+    
+    
+}
 
 /*margini*/
 .m_70{
@@ -17,10 +29,22 @@ body{
     margin: 30px;
  
 }
+.m_0{
+      margin: 10px ;
+      border-style: solid;
+      border-width: 1px;
+
+}
 /*texto*/
 .align_c{
     text-align: center;
+
 }
+.text_upper{
+    text-transform: uppercase;
+
+}
+
 
 .text_red{
     color: red;
