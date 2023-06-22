@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    background-color: white;
+}
+
+/*margini*/
+.m_70{
+    margin: 70px;
+ 
+}
+.m_30{
+    margin: 30px;
+ 
+}
+/*texto*/
+.align_c{
+    text-align: center;
+}
+
+.text_red{
+    color: red;
+}
+/*altezze*/
+.h_400{
+    height: 500px;
+    
+}
+/*lunghezze*/
+.w_100{
+    width: 100;
+}
