@@ -19,6 +19,10 @@ body{
     
     
 }
+/*backgrounds*/
+.bg_red{
+    background-color: red;
+}
 
 /*margini*/
 .m_70{
@@ -29,10 +33,21 @@ body{
     margin: 30px;
  
 }
-.m_0{
+.m_l5{
+    margin-left: 5px;
+
+ }
+
+ .m_r5{margin-right: 5px;
+
+ }
+ /*boders*/
+.border{
       margin: 10px ;
-      border-style: solid;
-      border-width: 1px;
+      border-bottom:1px solid rgb(5, 5, 5);
+      border-right: 1px solid rgb(5, 5, 5);
+      border-left:1px solid rgb(5, 5, 5);
+      
 
 }
 /*texto*/
@@ -49,12 +64,51 @@ body{
 .text_red{
     color: red;
 }
+
+.text_align{
+    text-align: start;
+}
 /*altezze*/
-.h_400{
-    height: 500px;
-    
+.h_20 {
+    height: 20px;
+}
+.h_600{
+    height: 600px;
 }
 /*lunghezze*/
-.w_100{
-    width: 100;
+.w_400{
+    width: 400px;
 }
+/*font*/
+.font_s{
+         font-size: small;
+}
+/* FLEX */
+.flex {
+    display: flex;
+    margin: 10px;
+}
+
+.flex_space_around {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.align_center_f {
+    align-items: center;
+}
+.align_left_f{
+    align-items: flex-start;
+}
+
+
+/*list*/
+.no_bullets {
+    list-style-type: none;}
+
+    li{
+        margin-right: 5px;
+
+    }
